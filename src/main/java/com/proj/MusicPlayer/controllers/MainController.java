@@ -3,17 +3,12 @@ package com.proj.MusicPlayer.controllers;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.proj.MusicPlayer.modals.LoginDataModal;
-import com.proj.MusicPlayer.modals.ResponseModal;
 import com.proj.MusicPlayer.modals.UserDetailModal;
 import com.proj.MusicPlayer.services.UserDetailService;
 import com.proj.MusicPlayer.utils.JwtUtil;
-import org.bson.json.JsonObject;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
 
 @RestController
 public class MainController {

@@ -7,6 +7,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface TrackRepo extends MongoRepository<TracksModal, String> {
     TracksModal findArtistByTitle(String title);
-    GonerModal findArtistByGoner(String gonerName);
-    ArtistModal findArtistByArtist(String artistName);
+
 }
